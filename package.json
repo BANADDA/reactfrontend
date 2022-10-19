@@ -1,6 +1,9 @@
 {
   "name": "freelance-developer-website",
   "version": "1.0.0",
+    "engines": {
+        "node": "v18.9.0"
+    },
   "description": "Freelance Developer Website",
   "main": "index.js",
   "scripts": {
