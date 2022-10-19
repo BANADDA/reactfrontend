@@ -9,6 +9,7 @@
   "scripts": {
     "start": "webpack serve --open --hot",
     "build": "webpack --config webpack.config.js --mode production"
+    "heroku-prebuild": "npm install && cd client && npm install && cd ../ && cd server && npm install"
   },
   "author": "MG",
   "license": "MIT",
